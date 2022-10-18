@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header {
+    height: 55vh;
+    width: 100vw;
+    background-color: #c15355;
+
+}
+
+.HeaderNavigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftside {
+    font-size: xx-large;
+    padding-left: 10pc;
+    padding-top: 2pc;
+    color: white;
+}
+
+.rightside {
+    width: 200px;
+    height: 50px;
+    padding-right: 10pc;
+    padding-top: 2pc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightside div {
+    color: white;
+    background-color: #c15355;
+    font-size: large;
+}
+
+.header-content {
+    font-size: xxx-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5pc;
+}
+
+.header-content2 {
+    font-size: smaller;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content1 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 45vh;
+    align-items: center;
+}
+
+.c1 {
+    width: 20pc;
+    height: 15pc;
+    text-align: left;
+    margin-right: 30px;
+}
+
+.c1 h2 {
+    color: #c15355;
+}
+
+.c1 button {
+    color: white;
+    background-color: #c15355;
+    width: 60px;
+    height: 30px;
+    border-color: #c15355;
+}
+
+.Content2 {
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 100vw;
+    height: 60vh;
+    /* align-items: center; */
+    background-color: #c15355;
+    /* padding-top: 5pc; */
+}
+
+.content2-header {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+    padding-top: 2pc;
+    color: white;
+}
+
+.content2-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2pc;
+
+}
+
+.Content2 img {
+    margin-right: 20px;
+}
+
+.Content3 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+    align-items: center;
+    padding-top: 10pc;
+}
+
+.c3 {
+    width: 30pc;
+    height: 15pc;
+    text-align: left;
+    /* margin-right: 45px; */
+}
+
+.c3 h2 {
+    color: #c15355;
+}
+
+.c3 button {
+    color: white;
+    background-color: #c15355;
+    width: 60px;
+    height: 30px;
+    border-color: #c15355;
+}
+
+#img1 {
+    margin-right: 25px;
+}
+
+#img2 {
+    margin-left: 25px;
+}
