@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(105, 145, 171);   
+}
+
+header div{
+    margin: 20px 200px;
+}
+
+div button{
+    border: none;
+    font-size: 30px;
+    margin: 0px 10px;
+    color: white;
+    background-color: rgb(105, 145, 171);
+    cursor: pointer;
+}
+
+.logo img{
+    width: 6.5vw;
+    height: 6vh;
+}
+
+.Header-rightside :nth-child(1){
+    color: rgba(225, 236, 243, 0.8);
+}
+
+.Header i{
+    color: white;
+    font-size: xx-large;
+    display: none;
+    cursor: pointer;
+}
+
+.main-1{
+    background-color: rgb(105, 145, 171);
+    padding-top: 30px;
+}
+
+.main-1 img{
+    width: 70%;
+    height: 35%;
+    margin: 20px 225px;
+}
+
+.main-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-1{
+    width: 25%;
+    height: 20%;
+    background-color: rgb(241, 169, 144);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.box-1 i{
+    font-size: 120px;
+    color: white;
+    margin: 20px 0px;
+}
+
+.box-2{
+    width: 25%;
+    height: 20%;
+    background-color: rgb(135, 248, 121);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.box-2 i{
+    font-size: 120px;
+    color: white;
+    margin: 20px 0px;
+}
+
+.box-3{
+    width: 25%;
+    height: 20%;
+    background-color: rgb(169, 216, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.box-3 i{
+    font-size: 120px;
+    color: white;
+    margin: 20px 0px;
+}
+
+.box-4{
+    width: 25%;
+    height: 20%;
+    background-color: rgb(162, 178, 193);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.box-4 i{
+    font-size: 120px;
+    color: white;
+    margin: 20px 0px;
+}
+
+.main-3{
+    background-color: rgb(195, 215, 222);
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: x-large;
+    color: white;
+    text-indent: 25px;
+    text-align: justify;
+    margin: 10px 5px; 
+}
+
+.leftside-section-1 img{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+.leftside-section-2{
+    background-color: rgb(189, 185, 173);
+    padding: 20px 0px;
+}
+
+.leftside-section-3 img{
+    width: 55%;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.rightside-section-1{
+    background-color: rgb(162, 178, 193);
+    padding: 20px 0px;
+}
+
+.rightside-section-2 img{
+    width: 35%;
+    margin-top: 120px;
+    margin-left: 220px;
+}
+
+.rightside-section-3{
+    background-color: rgb(241, 169, 144);
+    padding: 20px 0px;
+}
+
+.main-4{
+    display: flex;
+}
+
+.main-4-box1{
+    width: 35%;
+    background-color: rgb(162, 178, 193);
+    padding: 20px 0px;
+}
+
+.main-4-box2{
+    width: 33%;
+    background-color: rgba(165, 167, 75, 0.808);
+    padding: 20px 0px;
+}
+
+.main-4-box3{
+    width: 32%;
+    background-color: rgb(170, 220, 209);
+    padding: 20px 0px;
+}
+
+.main-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 220, 209);
+    padding: 20px 0px;
+}
+.main-5 div{
+    font-size: xxx-large;
+}
+
+.footer{
+    background-color: rgb(105, 145, 171);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 40px;
+
+}
+
+.footer i{
+    font-size: 70px;
+    color: white;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+.footer-1{
+    background-color: rgb(105, 86, 122);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.footer-1 div{
+    color: white;
+    font-size: x-large;
+}
+hr{
+    height: 30px;
+}
+
+@media only screen and (max-width: 1200px){
+    header div{
+        margin: 20px 20px;
+    }
+
+    .logo img{
+        width: 6vw;
+        height: 3vh;
+    }
+
+    .main-1 img{
+        margin: 10px 40px;
+        width: 90%;
+    }
+
+    .leftside-section-1{
+        height: 37.5%;
+    }
+
+    .leftside-section-1 img{
+        width: 70%;
+        margin: 40px 50px;
+    }
+
+    .rightside-section-2{
+        height: 37.5%;
+    }
+
+    .rightside-section-2 img{
+        width: 50%;
+        margin: 40px 100px;
+    }
+
+    .leftside-section-3 img{
+        width: 60%;
+        margin: 40px 80px;
+    }
+
+    .leftside-section-3{
+        height: 35%;
+        background-color: rgb(195, 215, 222);
+    }
+
+    .main-4{
+        margin-top: 90px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .Header-rightside i{
+        color: white;
+        font-size: x-large;
+        cursor: pointer;
+    }
+
+    .main-1 img{
+        width: 80%;
+    }
+
+    div button{
+        display: none;
+    }
+
+    .box-1{
+        width: 100%;
+    }
+    .box-2{
+        width: 100%;
+    }
+    .box-3{
+        width: 100%;
+    }
+    .box-4{
+        width: 100%;
+    }
+
+    .main-3{
+        flex-wrap: wrap;
+    }
+
+    .main-4{
+        flex-wrap: wrap;
+    }
+
+    .main-4-box1{
+        width: 100%;
+    }
+    .main-4-box2{
+        width: 100%;
+    }
+    .main-4-box3{
+        width: 100%;
+    }
+
+    .footer i{
+        font-size: 50px;
+    }
+}
