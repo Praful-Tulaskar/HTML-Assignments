@@ -1,0 +1,25 @@
+*{
+    margin: 10px 0px;
+    padding: 0px 20px;
+}
+
+.input-data{
+    width: 27%;
+    font-size: large;
+    border: 10px solid rgba(0, 128, 0, 0.75);
+    border-radius: 10px;
+}
+
+#btn{
+    background-color: rgba(0, 128, 0, 0.75);
+    border-radius: 8px;
+    font-size: medium;
+    padding: 7px 12px;
+}
+
+table,th,td{
+    border: 5px solid white;
+    border-collapse: collapse;
+    background-color: cadetblue;
+    width: 50%;
+}
